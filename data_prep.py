@@ -7,7 +7,7 @@ import numpy as np
 from numba import jit, cuda
 
 
-path = '/home/rgurung/projects/projects/surname_checked_midis/surname_checked_midis'
+path = '/home/rgurung/projects/projects/surname_checked_midis/surname_checked_midis' #path of the MIDI files
 os.chdir(path)
 midiz = os.listdir()
 midis = []
@@ -21,7 +21,7 @@ print(len(midis))
 
 @jit
 def create_midi_images():
-    new_dir = '/home/rgurung/projects/projects/surname_checked_midi_images_gpu'
+    new_dir = '/home/rgurung/projects/projects/surname_checked_midi_images_gpu' #path to save the MIDI images
     for midi in midis:
     #   try:
             os.chdir(new_dir)
