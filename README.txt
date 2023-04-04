@@ -5,7 +5,7 @@ The folder should contain the following source code files
 	4. image2midi.txt
 	5. midi2image.txt
 	
-The files 4 and 5 are closed form the github repo: https://github.com/mathigatti/midi2img
+The files 4 and 5 are cloned form the github repo: https://github.com/mathigatti/midi2img
 These files are, as their name suggests, used to convert MIDI files into images and back.
 
 1. data_prep.txt :  - This file prepares the data for the GAN model
